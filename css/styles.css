@@ -1,0 +1,136 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  }
+
+  h1 {
+  color: #212121;
+  font-style: italic;
+  font-size: 40px !important;
+}
+ul {
+  list-style-type: none;
+}
+figure {
+  margin: auto; }
+
+  .navbar {
+    opacity: 0.3;
+  }
+  .navbar-brand {
+    font-size: 20px !important;
+    margin-left: 2%;
+  }
+  .navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 10px;
+}
+  .nav-link {
+    font-size: 20px;
+  }
+  .zoom {
+      padding: 20px;
+      transition: transform .2s; /* Animation */
+      margin: 0 auto;
+  }
+
+  .zoom:hover {
+      transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.content {
+  position: relative;
+  background: #90A4AE;
+  padding-top: 30px;
+  margin-bottom: 135px;
+  overflow: hidden; }
+  .content article {
+    padding: 0px 0;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .content article p {
+      text-align: left;
+      font-size: 1.2em;
+      }
+    }
+
+img {
+  max-width: 100%; }
+
+.banner-image {
+  position: relative;
+  height: 400px;
+  background-color: #90A4AE;
+  background-image: url(../images/adventure-asphalt-autumn.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+.logo {
+  height: 250px;
+  width: 100%;
+  background-image: url(../images/ShawnTFox.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -150px; }
+
+
+
+.shawn-picture img {
+  height: 180px;
+  border-radius: 50%;
+}
+
+.space {
+  margin-top: 65px;
+}
+.resume dt {
+  font-size: 2.6em;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+.resume h2 {
+  font-weight: bold;
+  font-size: 1em;
+}
+.resume li {
+  font-size: 16px;
+  padding: 3px;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 280px)
+and (max-device-width : 740px) {
+/* Styles */
+.navbar-collapse.collapse {display: inline-block; !important; }
+.nav-link {font-size: 10px !important;}
+.navbar-brand {font-size: 12px !important;}
+.navbar-nav > li {padding-left: 5px !important; padding-right: 5px !important;}
+.banner-image {height: 200px;}
+.logo { background-image:  url(../images/ShawnTFoxMobile.png);
+margin-top: -150px;}
+.content {padding: 5px}
+}
+
+footer {
+  background: black;
+  color: #90A4AE;;
+  padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1; }
+  footer .footer-stuff {
+    max-width: 640px;
+    margin: 0 auto; }
+  footer a {
+    color: white; }
+  footer input {
+    color: #666; }
