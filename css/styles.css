@@ -35,7 +35,7 @@ figure {
   }
 
   .zoom:hover {
-      transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      transform: scale(1.2);
   }
 
 .content {
@@ -53,6 +53,9 @@ figure {
     .content article p {
       text-align: left;
       font-size: 1.2em;
+      }
+      .content a {
+        color: #003566;
       }
     }
 
