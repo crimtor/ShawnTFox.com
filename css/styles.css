@@ -5,7 +5,10 @@ body {
   h1 {
   color: #212121;
   font-style: italic;
-  font-size: 40px !important;
+  font-size: 4em !important;
+}
+h3 {
+  font-size: 1.5em !important;
 }
 ul {
   list-style-type: none;
@@ -46,7 +49,7 @@ figure {
   overflow: hidden; }
   .content article {
     padding: 0px 0;
-    max-width: 880px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     }
@@ -58,6 +61,13 @@ figure {
         color: #003566;
       }
     }
+  #about {
+    text-align: center;
+    justify-content: center;
+  } #about p {
+    text-align: center;
+  }
+
 
 img {
   max-width: 100%; }
@@ -107,6 +117,12 @@ img {
   font-size: 16px;
   padding: 3px;
 }
+#fcc .col-4 {
+  margin-left: 40px;
+  margin-right: 40px;
+}   #fcc .col-4 li a {
+  margin-left: 50px;
+}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 280px)
@@ -137,3 +153,22 @@ footer {
     color: white; }
   footer input {
     color: #666; }
+
+/* For carousel */
+.carousel {
+    height: 25rem;
+    margin-bottom: 0px;
+    width: 100%;
+    align-content: center;
+}
+
+.carousel-inner img {
+  max-height: 17rem;
+  margin: auto;
+}
+.carousel-inner a {
+  margin: auto;
+  text-align: center;
+}
+
+}
