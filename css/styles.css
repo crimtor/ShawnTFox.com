@@ -67,7 +67,10 @@ figure {
   } #about p {
     text-align: center;
   }
-
+.space {
+  text-align: center;
+  font-weight: bolder;
+}
 
 img {
   max-width: 100%; }
