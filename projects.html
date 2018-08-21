@@ -19,25 +19,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="index.html#about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="index.html#resume">Resume</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Portfolio
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="comingsoon.html">Java Projects</a>
-          <a class="dropdown-item" href="#about">Websites</a>
-          <a class="dropdown-item" href="#about">PHP</a>
-          <a class="dropdown-item" href="#about">Node.js</a>
-          <a class="dropdown-item" href="#about">Ruby on Rails</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects<span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
@@ -47,113 +38,158 @@
       <div class="fore-bird"></div>
     </header>
     <section class="content">
-      <article id="about">
-        <div class="container clear-fix">
-        <h1> Web Projects </h1>
-        <hr>
-        <p> Here is my Portfolio Page as a Wordpress Website
-          <br />
-          <a id="first" href="https://crimtor.com/">Portfolio Page in Wordpress <div class="zoom">
-          <img src="images/wordpress.png" alt="Picture of Wordpress Portfolio Site"></div></a>
-        </p>
-          <p id="craftbeer"> Here is my Craft Beer Website
-            <br />
-           <a href="/beer/index.html">Craft Beer Site<div class="zoom">
-            <img src="images/beersite.png" alt="Picture of Craft Beer Site"></div></a>
-          </p>
-            <p id="thorion" > Here is a Business Consulting Website I mocked up for a potential client
-              <br />
-            <a href="https://thoriontech.com">Thorion Tech Consulting<div class="zoom">
-              <img src="images/thorion.png" alt="Picture of Thorion Tech Consulting Site"></div></a>
-            </p>
+      <article id="projects">
+        <!-- Tabs -->
+        <section id="tabs">
+        	<div class="container">
+        		<h6 class="section-title h1">Projects</h6>
+        		<div class="row">
+        			<div class="col-12 ">
+        				<nav>
+        					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+        						<a class="nav-item nav-link active" id="nav-html-tab" data-toggle="tab" href="#nav-html" role="tab" aria-controls="nav-html" aria-selected="true">HTML</a>
+        						<a class="nav-item nav-link" id="nav-javascript-tab" data-toggle="tab" href="#nav-javascript" role="tab" aria-controls="nav-javascript" aria-selected="false">JavaScript</a>
+        						<a class="nav-item nav-link" id="nav-java-tab" data-toggle="tab" href="#nav-java" role="tab" aria-controls="nav-java" aria-selected="false">Java / PHP</a>
+        						<a class="nav-item nav-link" id="nav-fcc-tab" data-toggle="tab" href="#nav-fcc" role="tab" aria-controls="nav-fcc" aria-selected="false">FreeCodeCamp</a>
+        					</div>
+        				</nav>
+        				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+        					<div class="tab-pane fade show active" id="nav-html" role="tabpanel" aria-labelledby="nav-html-tab">
+                    <h3 style="text-align: center"> Here are some of the Website Projects I've been working on. </h3>
+                 <br />
+
+               <div id="html_carousel" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                   <li data-target="#hmtl_carousel" data-slide-to="0" class="active"></li>
+                   <li data-target="#html_carousel" data-slide-to="1"></li>
+                   <li data-target="#html_carousel" data-slide-to="2"></li>
+                   <li data-target="#html_carousel" data-slide-to="3"></li>
+                 </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+             <a class="d-block" href="https://crimtor.com/">Portfolio Page in Wordpress <div class="zoom">
+             <img class="d-block" src="images/wordpress.png" alt="Picture of Wordpress Portfolio Site"></div></a>
+                  </div>
+                  <div class="carousel-item">
+            <a class="d-block" href="/beer/index.html">Craft Beer Site<div class="zoom">
+             <img class="d-block" src="images/beersite.png" alt="Picture of Craft Beer Site"></div></a>
+                  </div>
+                  <div class="carousel-item">
+                    <p style="text-align: center"> Here is a Business Consulting Website I mocked up for a potential client </p>
+            <a  class="d-block" href="https://thoriontech.com">Thorion Tech Consulting<div class="zoom">
+              <img class="d-block" src="images/thorion.png" alt="Picture of Thorion Tech Consulting Site"></div></a>
+            </div>
+            <div class="carousel-item">
+              <p style="text-align: center"> Here is the a Blog I made from a Bootstrap template for my old boss </p>
+      <a  class="d-block" href="https://thoriontech.com/forevercheap/">Forever Cheap Blog<div class="zoom">
+        <img class="d-block" src="images/forevercheap.png" alt="Picture of the Forever Cheap Blog"></div></a>
           </div>
+                </div>
+            <a class="carousel-control-prev" href="#html_carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#html_carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+              </div>
+        					<div class="tab-pane fade" id="nav-javascript" role="tabpanel" aria-labelledby="nav-javascript-tab">
+                    <h3 style="text-align: center"> Here are some of the Javascript Projects I've been working on. </h3>
+                 <br />
+
+               <div id="js_carousel" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                   <li data-target="#js_carousel" data-slide-to="0" class="active"></li>
+                   <li data-target="#js_carousel" data-slide-to="1"></li>
+                   <li data-target="#js_carousel" data-slide-to="2"></li>
+                 </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+             <a class="d-block" href="elijah/memorygame/index.html">Elijah Wood Memory Game<div class="zoom">
+               <img class="d-block" src="images/memorygame.png" alt="Picture of memory game"></div></a>
+                  </div>
+                  <div class="carousel-item">
+            <a class="d-block" href="elijah/quizapp/index.html">Elijah Simple Quiz App<div class="zoom">
+              <img class="d-block" src="images/quizapp.png" alt="Picture of quiz app"></div></a>
+                  </div>
+                  <div class="carousel-item">
+            <a  class="d-block" href="/elijah/snake/index.html">Elijah Wood Snake Game <div class="zoom">
+              <img class="d-block" src="images/snake.png" alt="Picture of Snake Game Page"></div></a>
+            </div>
+                </div>
+            <a class="carousel-control-prev" href="#js_carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#js_carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+              </div>
+        					<div class="tab-pane fade" id="nav-java" role="tabpanel" aria-labelledby="nav-java-tab">
+                      <h3 style="text-align: center"> Here will be some of the Java Projects I've been working on. </h3>
+                	I will get to adding them, and hopefully be able to demo them, but until then
+                check out my <a href="https://github.com/crimtor">GitHub</a>				</div>
+        					<div class="tab-pane fade" id="nav-fcc" role="tabpanel" aria-labelledby="nav-fcc-tab">
+                    <h3 style="text-align: center"> Here are some of the Free Code Camp Projects I've done. </h3>
+
+                       <div id="fcc_carousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                  <li data-target="#fcc_carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#fcc_carousel" data-slide-to="1"></li>
+                  <li data-target="#fcc_carousel" data-slide-to="2"></li>
+                  <li data-target="#fcc_carousel" data-slide-to="3"></li>
+                  <li data-target="#fcc_carousel" data-slide-to="4"></li>
+                  <li data-target="#fcc_carousel" data-slide-to="5"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <a class="d-block" href="/elijah">Elijah Wood Tribute Page <div class="zoom">
+                      <img class="d-block" src="images/tribute.png" alt="Picture of Tribute Page"></div></a>
+                   </div>
+                   <div class="carousel-item">
+                     <a class="d-block" href="/elijah/random-quote">Random Quote Generator <div class="zoom">
+                      <img class="d-block" src="images/random-quote.png" alt="Picture of Random Quote Page"></div></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a  class="d-block" href="/elijah/product">Elijah Wood Product Page <div class="zoom">
+                      <img class="d-block" src="images/product.png" alt="Picture of Product Page"></div></a>
+                  </div>
+                  <div class="carousel-item">
+                   <a class="d-block" href="/elijah/survey">Elijah Wood Survey Page <div class="zoom">
+                     <img class="d-block" src="images/survey.png" alt="Picture of Survey Page"></div></a>
+                  </div>
+                  <div class="carousel-item">
+                   <a class="d-block" href="/elijah/portfolio">Portfolio Page Plain HTML <div class="zoom">
+                     <img class="d-block" src="images/portfolio.png" alt="Picture of Portfolio Page"></div></a>
+                  </div>
+                  <div class="carousel-item">
+                   <a class="d-block" href="/elijah/document">Elijah Wood Tech Document<div class="zoom">
+                     <img class="d-block" src="images/techdoc.png" alt="Picture of Document Page"></div></a>
+                  </div>
+                  </div>
+                    <a class="carousel-control-prev" href="#fcc_carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#fcc_carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+        				</div>
+
+        			</div>
+        		</div>
+        	</div>
         </article>
-        <div class="space">
-          <h3> Here are some of the Javascript Projects I've been working on. </h3>
-       <br />
-
-     </div>
-     <div id="js_carousel" class="carousel slide" data-ride="carousel">
-       <ol class="carousel-indicators">
-         <li data-target="#js_carousel" data-slide-to="0" class="active"></li>
-         <li data-target="#js_carousel" data-slide-to="1"></li>
-         <li data-target="#js_carousel" data-slide-to="2"></li>
-       </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-   <a class="d-block" href="elijah/memorygame/index.html">Elijah Wood Memory Game<div class="zoom">
-     <img class="d-block" src="images/memorygame.png" alt="Picture of memory game"></div></a>
-        </div>
-        <div class="carousel-item">
-  <a class="d-block" href="elijah/quizapp/index.html">Elijah Simple Quiz App<div class="zoom">
-    <img class="d-block" src="images/quizapp.png" alt="Picture of quiz app"></div></a>
-        </div>
-        <div class="carousel-item">
-  <a  class="d-block" href="/elijah/snake">Elijah Wood Snake Game <div class="zoom">
-    <img class="d-block" src="images/snake.png" alt="Picture of Snake Game Page"></div></a>
-  </div>
-      </div>
-  <a class="carousel-control-prev" href="#js_carousel" role="button" data-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#js_carousel" role="button" data-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="sr-only">Next</span>
-  </a>
-</div>
-
-<div class="space">
-<br />
-  <h3> Here are some of the Free Code Camp Projects I've done. </h3>
-</div>
-
-     <div id="fcc_carousel" class="carousel slide" data-ride="carousel">
-<ol class="carousel-indicators">
-<li data-target="#fcc_carousel" data-slide-to="0" class="active"></li>
-<li data-target="#fcc_carousel" data-slide-to="1"></li>
-<li data-target="#fcc_carousel" data-slide-to="2"></li>
-<li data-target="#fcc_carousel" data-slide-to="3"></li>
-<li data-target="#fcc_carousel" data-slide-to="4"></li>
-<li data-target="#fcc_carousel" data-slide-to="5"></li>
-</ol>
-<div class="carousel-inner">
- <div class="carousel-item active">
-   <a class="d-block" href="/elijah">Elijah Wood Tribute Page <div class="zoom">
-    <img class="d-block" src="images/tribute.png" alt="Picture of Tribute Page"></div></a>
- </div>
- <div class="carousel-item">
-   <a class="d-block" href="/elijah/random-quote">Random Quote Generator <div class="zoom">
-    <img class="d-block" src="images/random-quote.png" alt="Picture of Random Quote Page"></div></a>
-</div>
-<div class="carousel-item">
-  <a  class="d-block" href="/elijah/product">Elijah Wood Product Page <div class="zoom">
-    <img class="d-block" src="images/product.png" alt="Picture of Product Page"></div></a>
-</div>
-<div class="carousel-item">
- <a class="d-block" href="/elijah/survey">Elijah Wood Survey Page <div class="zoom">
-   <img class="d-block" src="images/survey.png" alt="Picture of Survey Page"></div></a>
-</div>
-<div class="carousel-item">
- <a class="d-block" href="/elijah/portfolio">Portfolio Page Plain HTML <div class="zoom">
-   <img class="d-block" src="images/portfolio.png" alt="Picture of Portfolio Page"></div></a>
-</div>
-<div class="carousel-item">
- <a class="d-block" href="/elijah/document">Elijah Wood Tech Document<div class="zoom">
-   <img class="d-block" src="images/techdoc.png" alt="Picture of Document Page"></div></a>
-</div>
-</div>
-  <a class="carousel-control-prev" href="#fcc_carousel" role="button" data-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#fcc_carousel" role="button" data-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="sr-only">Next</span>
-  </a>
-</div>
-
-</section>
+        </section>
+        <!-- ./Tabs -->
     <footer>
       <div class="row footer-stuff">
         <div class="columns three"><strong>FIND ME ON</strong>
