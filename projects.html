@@ -47,13 +47,59 @@
         			<div class="col-12 ">
         				<nav>
         					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link" id="nav-html-tab" data-toggle="tab" href="#nav-fullstack" role="tab" aria-controls="nav-fullstack" aria-selected="false">FullStack</a>
         						<a class="nav-item nav-link active" id="nav-html-tab" data-toggle="tab" href="#nav-html" role="tab" aria-controls="nav-html" aria-selected="true">HTML</a>
-        						<a class="nav-item nav-link" id="nav-javascript-tab" data-toggle="tab" href="#nav-javascript" role="tab" aria-controls="nav-javascript" aria-selected="false">JavaScript</a>
+        						<a class="nav-item nav-link" id="nav-javascript-tab" data-toggle="tab" href="#nav-javascript" role="tab" aria-controls="nav-javascript" aria-selected="false">FrontEnd</a>
         						<a class="nav-item nav-link" id="nav-java-tab" data-toggle="tab" href="#nav-java" role="tab" aria-controls="nav-java" aria-selected="false">Java / PHP</a>
         						<a class="nav-item nav-link" id="nav-fcc-tab" data-toggle="tab" href="#nav-fcc" role="tab" aria-controls="nav-fcc" aria-selected="false">FreeCodeCamp</a>
         					</div>
         				</nav>
-        				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                  <div class="tab-pane fade" id="nav-fullstack" role="tabpanel" aria-labelledby="nav-fullstack-tab">
+                    <h3 style="text-align: center"> Here are some of the FullStack Projects I've been working on. </h3>
+                 <br />
+
+                 <div id="fullstack_carousel" class="carousel slide" data-ride="carousel">
+                   <ol class="carousel-indicators">
+                     <li data-target="#fullstack_carousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#fullstack_carousel" data-slide-to="1"></li>
+                     <li data-target="#fullstack_carousel" data-slide-to="2"></li>
+                     <li data-target="#fullstack_carousel" data-slide-to="3"></li>
+                   </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <p style="text-align: center"> Here is a Node.js website I built by coding it along with Colt Steele </p>
+              <a class="d-block" href="https://rocky-dusk-86773.herokuapp.com/">YelpCamp Code Along<div class="zoom">
+               <img class="d-block" src="images/yelpcamp.png" alt="Picture of YelpCamp Site"></div></a>
+                    </div>
+                    <div class="carousel-item">
+               <a class="d-block" href="https://crimtor.com/">Portfolio Page in Wordpress <div class="zoom">
+               <img class="d-block" src="images/wordpress.png" alt="Picture of Wordpress Portfolio Site"></div></a>
+                    </div>
+                    <div class="carousel-item">
+                      <p style="text-align: center"> Here is a Business Consulting Website I mocked up for a potential client </p>
+              <a  class="d-block" href="https://thoriontech.com">Thorion Tech Consulting<div class="zoom">
+                <img class="d-block" src="images/thorion.png" alt="Picture of Thorion Tech Consulting Site"></div></a>
+              </div>
+              <div class="carousel-item">
+                <p style="text-align: center"> Here is the a Blog I made from a Bootstrap template for my old boss </p>
+          <a  class="d-block" href="https://thoriontech.com/forevercheap/">Forever Cheap Blog<div class="zoom">
+          <img class="d-block" src="images/forevercheap.png" alt="Picture of the Forever Cheap Blog"></div></a>
+            </div>
+                  </div>
+              <a class="carousel-control-prev" href="#fullstack_carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#fullstack_carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+           </div>
+
         					<div class="tab-pane fade show active" id="nav-html" role="tabpanel" aria-labelledby="nav-html-tab">
                     <h3 style="text-align: center"> Here are some of the Website Projects I've been working on. </h3>
                  <br />
@@ -97,7 +143,7 @@
 
               </div>
         					<div class="tab-pane fade" id="nav-javascript" role="tabpanel" aria-labelledby="nav-javascript-tab">
-                    <h3 style="text-align: center"> Here are some of the Javascript Projects I've been working on. </h3>
+                    <h3 style="text-align: center"> Here are some of the FrontEnd/JavaScript Projects I've been working on. </h3>
                  <br />
 
                <div id="js_carousel" class="carousel slide" data-ride="carousel">
